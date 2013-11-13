@@ -1,0 +1,157 @@
+s@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0 0;
+	margin:0 0;
+}
+body{	
+	background:#f8f8f8;
+	margin:0;
+	}
+.carName{
+	width:96%;
+	height:50px;
+	font-size:18px;
+	font-weight:600;
+	font-family:"微软雅黑";
+	text-align:center;
+	background:#FFF;
+	margin:10px auto 0 auto;
+	border:1px solid #999;
+	border-radius:3px;
+}
+
+.carName p{
+	margin-top:15px;
+}
+
+.checkDetail{
+	display:blcok;
+	text-decoration:none;
+}
+.rules{
+	width:96%;
+	height:auto;
+	background:#FFF;
+	border:solid 1px #999;
+	border-radius:3px;
+	margin:10px auto 10px auto;
+}
+
+.dot-line{
+	background:url(../img/dot-line.png) repeat-x;
+	width:96%;
+	height:5px;
+	margin:10px auto 10px auto;	
+}
+
+.title{
+	width:88%;
+	height:auto;
+	font-size:18px;
+	font-family:"微软雅黑";
+	margin:10px auto 10px auto;
+}
+
+.detail{
+	width:88%;
+	height:auto;
+	font-size:14px;
+	font-family:"微软雅黑";
+	margin:10px auto 10px auto;
+	color:#666;
+}
+.phone{
+	width:96%;
+	height:50px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#666;
+	margin:20px auto 20px auto;
+	border:1px solid #999;
+	border-radius:3px;
+	background:#FFF;
+	line-height:52px;
+}
+
+.phone-pic{
+	width:30px;
+	height:21px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:14px;
+	float:left;
+}
+
+.phone-num{
+	display:block;
+	height:auto;
+	width:auto;
+	color:#666;
+	float:left;
+	text-decoration:none;
+}
+
+.signup{
+	width:96%;
+	height:auto;
+	margin:10px auto 0 auto;
+	background:#FFF;
+	border:1px solid #999;
+	border-radius:3px;
+}
+
+.ensure{
+	width:88%;
+	height:auto;
+	font-size:15px;
+	font-family:"微软雅黑";
+	margin:10px auto 0 auto;
+}
+
+.signup-form{
+	width:90%;
+	height:auto;
+	margin:10px auto 0 auto;
+	display:block;
+}
+.name{
+	display:block;
+	width:94%;
+	height:30px;
+	margin:0 auto 0 auto;
+	font-size:15px;
+}
+.custom{
+	display:block;
+	width:94%;
+	height:30px;
+	margin:0 auto 0 auto;
+	font-size:15px;
+}
+
+.submit{
+	width:90%;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#FFF;
+	text-align:center;
+	display:block;
+	line-height:40px;
+	background:#157eff;
+	text-decoration:none;
+	display:block;
+	margin:0 auto 10px auto;
+}
+
+.something{
+	width:96%;
+	height:50px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#666;
+	margin:20px auto 20px auto;
+	line-height:50px;
+	margin-top:0;
+}

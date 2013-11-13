@@ -1,0 +1,84 @@
+s@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0 0;
+	margin:0 0;
+}
+body{	
+	background:#f8f8f8;
+	margin:0;
+	}
+
+.banner{
+	width:100%;
+	height:100%;
+}	
+
+.banner-pic{
+	width:100%;
+	height:200px;
+}
+
+.phone{
+	width:96%;
+	height:50px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#666;
+	margin:20px auto 20px auto;
+	border:1px solid #999;
+	border-radius:3px;
+	background:#FFF;
+	line-height:52px;
+}
+
+.phone-pic{
+	width:30px;
+	height:21px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:14px;
+	float:left;
+}
+
+.phone-num{
+	display:block;
+	height:auto;
+	width:auto;
+	color:#666;
+	float:left;
+	text-decoration:none;
+}
+
+.company{
+	width:96%;
+	height:auto;
+	background:#FFF;
+	border:solid 1px #999;
+	border-radius:3px;
+	color:#666;
+	font-family:"微软雅黑";
+	font-size:16px;
+	text-align:left;
+	margin:0 auto 50px auto;
+}
+
+.company-name{
+	font-size:18px;
+	color:#333;
+	width:88%;
+	margin:10px auto 0 auto;
+}
+
+.dot-line{
+	background:url(../img/dot-line.png) repeat-x;
+	width:96%;
+	height:5px;
+	margin:10px auto 10px auto;
+}
+
+.company-info{
+	width:88%;
+	height:auto;
+	margin:10px auto 30px auto;
+}
