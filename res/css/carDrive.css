@@ -9,33 +9,33 @@ body{
 	margin:0;
 	}
 .carName{
-	width:96%;
-	height:50px;
+	width:92%;
+	height:40px;
 	font-size:18px;
 	font-weight:600;
 	font-family:"微软雅黑";
 	text-align:center;
 	background:#FFF;
-	margin:10px auto 0 auto;
-	border:1px solid #999;
+	margin:15px auto 15px auto;
+	border:1px solid #ccc;
 	border-radius:3px;
 }
 
 .carName p{
-	margin-top:15px;
+	margin-top:9px;
 }
 .rules{
-	width:96%;
+	width:92%;
 	height:auto;
 	background:#FFF;
-	border:solid 1px #999;
+	border:solid 1px #ccc;
 	border-radius:3px;
 	margin:10px auto 10px auto;
 }
 
 .dot-line{
 	background:url(../img/dot-line.png) repeat-x;
-	width:96%;
+	width:92%;
 	height:5px;
 	margin:10px auto 10px auto;	
 }
@@ -57,13 +57,13 @@ body{
 	color:#666;
 }
 .phone{
-	width:96%;
+	width:92%;
 	height:50px;
 	font-size:18px;
 	font-family:"微软雅黑";
 	color:#666;
-	margin:20px auto 20px auto;
-	border:1px solid #999;
+	margin:15px auto 15px auto;
+	border:1px solid #ccc;
 	border-radius:3px;
 	background:#FFF;
 	line-height:52px;
@@ -88,11 +88,11 @@ body{
 }
 
 .signup{
-	width:96%;
+	width:92%;
 	height:auto;
-	margin:10px auto 10px auto;
+	margin:10px auto 20px auto;
 	background:#FFF;
-	border:1px solid #999;
+	border:1px solid #ccc;
 	border-radius:3px;
 }
 
@@ -144,7 +144,7 @@ body{
 	background:#157eff;
 	text-decoration:none;
 	display:block;
-	margin:15px auto 10px auto;
+	margin:20px auto 20px auto;
 }
 
 .footer{

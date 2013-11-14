@@ -36,20 +36,26 @@ ul ,li{
 
 /*一级菜单*/
 .menu li.level1 a{
+	font-family:"微软雅黑";
 	display:block;
-	line-height:65px;
-	height:65px;
+	line-height:50px;
+	height:50px;
 	font-size:20px;
 	color:#000;
-	text-align:center;
 	background:url(../img/menubg.jpg) no-repeat left top;
+}
+.menu li.level1 a span{
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#999;
+	margin-left:5%;
 }
 /*一级菜单两态样式,供JS调用*/
 .menu li.level1 a.hove{
-	background-position:left -65px;
+	background-position:left -100px;
 }
 .menu li.level1 a.cur{
-	background-position:left -65px;
+	background-position:left -50px;
 }
 
 /*二级菜单*/

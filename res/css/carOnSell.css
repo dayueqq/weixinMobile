@@ -9,20 +9,20 @@ body{
 	margin:0;
 	}
 .carName{
-	width:100%;
+	width:92%;
 	height:100px;
 	font-size:50px;
 	font-weight:600;
 	font-family:"微软雅黑";
 	background:#FFF;
-	margin:10px auto 0 auto;
+	margin:45px auto 45px auto;
 	border:1px solid #999;
 	border-radius:3px;
 }
 
 .brand{
-	margin-top:28px;
-	margin-left:170px;
+	text-align:center;
+	margin:24px auto 0 40px;
     float:left;
 }
 
@@ -68,7 +68,7 @@ body{
 
 .dot-line{
 	background:url(../img/dot-line.png) repeat-x;
-	width:96%;
+	width:92%;
 	height:5px;
 	margin:10px auto 10px auto;	
 }
@@ -82,7 +82,7 @@ body{
 }
 
 .signup{
-	width:100%;
+	width:92%;
 	height:auto;
 	margin:40px auto 0 auto;
 	background:#FFF;
@@ -131,11 +131,11 @@ body{
 	background:#157eff;
 	text-decoration:none;
 	display:block;
-	margin:40px auto 40px auto;
+	margin:40px auto 55px auto;
 }
 
 .something{
-	width:96%;
+	width:92%;
 	height:100px;
 	font-size:40px;
 	font-family:"微软雅黑";
@@ -146,12 +146,12 @@ body{
 }
 
 .phone{
-	width:100%;
+	width:92%;
 	height:100px;
 	font-size:50px;
 	font-family:"微软雅黑";
 	color:#666;
-	margin:20px auto 20px auto;
+	margin:45px auto 20px auto;
 	border:1px solid #999;
 	border-radius:3px;
 	background:#FFF;

@@ -1,12 +1,14 @@
 s@charset "utf-8";
 /* CSS Document */
-
+.clear-both{
+	clear:both;
+}
 .homeList
 {
 	width:100%;
+	height:auto;
 }
 .homeList li{
-	
 }
 .labelLinkOLeft{
 	width:48%;
