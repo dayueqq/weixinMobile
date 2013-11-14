@@ -3,30 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="title" content="微信微店">
-<meta name="apple-touch-fullscreen" content="YES">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name=”viewport” content=”width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;” />
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<script type="text/javascript" src="../res/js/jquery-1.8.2.min.js"></script>
+<link rel="stylesheet" href="../res/css/mqq_reset.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../res/css/3gqq_index.css" />
 <title>在售车型</title>
 <link rel="stylesheet" href="../res/css/carOnSell.css">
 <script src="../res/js/carOnSell.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body class="loading">
+<div class="main" >
 	<div class="carName">
-    	<p>奥迪A7 <a href="#" class="checkDetail">（查看配置）</a></p>
+    	<p class="brand">奥迪A8&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</p>
+        <p class="model">2013款A8 自动挡豪华版</p>
        
     </div>
-    <div class="rules">
-    	<p class="title">优惠情况：</p>
-        <div class="dot-line">
+    <!--focus picture begin-->
+	<div class="pro-switch">
+        <div class="mengban">
+    	<p class="mengbanT">微信报名价</p>
+        <p class="mengbanP">999.99万</p>
+        <a class="checkDetail" href="XXXX">查看配置</a>
         </div>
-        <p class="detail">开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑开着车儿跑啊跑跑啊跑
-        </p>
-    </div>
-    <div class="phone">
-    	<img class="phone-pic" src="../res/img/phone-icon.png">
-        <a href="tel:15902076381" class="phone-num">询问客服： 159-0207-6381</a>
-    </div>
+		<div class="slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<div class="img"><img src="../res/images/ad_home.jpg" height="450" width"960" alt="" /></div>
+					</li>
+					<li>
+						<div class="img"><img src="../res/images/ad_yuetu.jpg" height="450" width"960" alt="" /></div>
+					</li>
+					<li>
+						<div class="img"><img src="../res/images/ad_nba.jpg" height="450" width"960" alt="" /></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--focus picture end-->
     
     <div class="signup">
     	<p class="ensure">请填写有效的联系方式，我们承诺保密</p>
@@ -38,7 +56,29 @@
         </form>
         <a href="XXXX" class="submit">立即报名试驾</a>
     </div>
-    <p class="something">*数量有限，抢先报名体验下订立享最高优惠</p>
+    
+     <div class="phone">
+     	<img class="phone-pic" src="../res/img/phone-icon.png">
+        <a href="tel:15902076381" class="phone-num">询问客服： 159-0207-6381</a>
+     </div>
+    
+</div>
+<!--main div end-->
+ 	<div class="footer">
+    	<p>东莞悦车广告有限公司</p>
+        <p>All rights reserved 2013</p>
+    </div>
 
+<script defer src="../res/js/slider.js"></script> 
+<script type="text/javascript">
+    $(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 </body>
 </html>

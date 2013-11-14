@@ -9,33 +9,61 @@ body{
 	margin:0;
 	}
 .carName{
-	width:96%;
-	height:50px;
-	font-size:18px;
+	width:100%;
+	height:100px;
+	font-size:50px;
 	font-weight:600;
 	font-family:"微软雅黑";
-	text-align:center;
 	background:#FFF;
 	margin:10px auto 0 auto;
 	border:1px solid #999;
 	border-radius:3px;
 }
 
-.carName p{
-	margin-top:15px;
+.brand{
+	margin-top:28px;
+	margin-left:170px;
+    float:left;
+}
+
+.model{
+	margin-top:33px;
+	font-size:40px;
+	float:left;
+	color:#999;
+}
+.mengban{
+	position:absolute;
+	z-index:10000;
+	background:#000;
+	opacity:0.77;
+	width:100%;
+	height:70px;
+	bottom:0;
+	line-height:70px;
+	
+}
+.mengbanT{
+	color:#fff;
+	fontp-family:"微软雅黑";
+	float:left;
+	margin-left:5%;
+	font-size:30px;
+}
+
+.mengbanP{
+	color:#FF0;
+	font-weight:bold;
+	float:left;
+	font-size:60px;
+	margin-left:3%;
 }
 
 .checkDetail{
-	display:blcok;
-	text-decoration:none;
-}
-.rules{
-	width:96%;
-	height:auto;
-	background:#FFF;
-	border:solid 1px #999;
-	border-radius:3px;
-	margin:10px auto 10px auto;
+	color:#FFF;
+	font-size:40px;
+	font-weight:bold;
+	margin-left:20%;
 }
 
 .dot-line{
@@ -53,33 +81,89 @@ body{
 	margin:10px auto 10px auto;
 }
 
-.detail{
+.signup{
+	width:100%;
+	height:auto;
+	margin:40px auto 0 auto;
+	background:#FFF;
+	border:1px solid #999;
+	border-radius:3px;
+}
+
+.ensure{
 	width:88%;
 	height:auto;
-	font-size:14px;
+	font-size:40px;
 	font-family:"微软雅黑";
-	margin:10px auto 10px auto;
-	color:#666;
+	margin:40px auto 40px auto;
 }
-.phone{
+
+.signup-form{
+	width:90%;
+	height:auto;
+	margin:40px auto 0 auto;
+	display:block;
+}
+.name{
+	display:block;
+	width:94%;
+	height:100px;
+	margin:0 auto 0 auto;
+	font-size:50px;
+}
+.custom{
+	display:block;
+	width:94%;
+	height:100px;
+	margin:40px auto 0 auto;
+	font-size:50px;
+}
+
+.submit{
+	width:90%;
+	height:120px;
+	font-family:"微软雅黑";
+	font-size:50px;
+	color:#FFF;
+	text-align:center;
+	display:block;
+	line-height:120px;
+	background:#157eff;
+	text-decoration:none;
+	display:block;
+	margin:40px auto 40px auto;
+}
+
+.something{
 	width:96%;
-	height:50px;
-	font-size:18px;
+	height:100px;
+	font-size:40px;
+	font-family:"微软雅黑";
+	color:#666;
+	margin:20px auto 20px auto;
+	line-height:50px;
+	margin-top:0;
+}
+
+.phone{
+	width:100%;
+	height:100px;
+	font-size:50px;
 	font-family:"微软雅黑";
 	color:#666;
 	margin:20px auto 20px auto;
 	border:1px solid #999;
 	border-radius:3px;
 	background:#FFF;
-	line-height:52px;
+	line-height:100px;
 }
 
 .phone-pic{
-	width:30px;
-	height:21px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-top:14px;
+	width:70px;
+	height:60px;
+	margin-left:5%;
+	margin-right:3%;
+	margin-top:2%;
 	float:left;
 }
 
@@ -91,67 +175,15 @@ body{
 	float:left;
 	text-decoration:none;
 }
-
-.signup{
-	width:96%;
-	height:auto;
-	margin:10px auto 0 auto;
-	background:#FFF;
-	border:1px solid #999;
-	border-radius:3px;
-}
-
-.ensure{
-	width:88%;
-	height:auto;
-	font-size:15px;
-	font-family:"微软雅黑";
-	margin:10px auto 0 auto;
-}
-
-.signup-form{
-	width:90%;
-	height:auto;
-	margin:10px auto 0 auto;
-	display:block;
-}
-.name{
-	display:block;
-	width:94%;
-	height:30px;
-	margin:0 auto 0 auto;
-	font-size:15px;
-}
-.custom{
-	display:block;
-	width:94%;
-	height:30px;
-	margin:0 auto 0 auto;
-	font-size:15px;
-}
-
-.submit{
-	width:90%;
-	height:40px;
-	font-family:"微软雅黑";
-	font-size:18px;
-	color:#FFF;
+.footer{
+	background:#000;
+	opacity:0.4;
+	width:100%;
+	height:80px;
 	text-align:center;
-	display:block;
-	line-height:40px;
-	background:#157eff;
-	text-decoration:none;
-	display:block;
-	margin:0 auto 10px auto;
-}
-
-.something{
-	width:96%;
-	height:50px;
-	font-size:14px;
 	font-family:"微软雅黑";
-	color:#666;
-	margin:20px auto 20px auto;
-	line-height:50px;
-	margin-top:0;
+	font-size:31px;
+	margin-top:50px;
+	color:#FFF;
+	padding-top:30px;
 }
