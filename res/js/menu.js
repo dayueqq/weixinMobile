@@ -175,7 +175,7 @@ function subclick(o,links,style2,style3,state){
 var flag=0;
 function showObj(obj){
 	var allhight;
-	allhight=obj.getElementsByTagName("li").length*30;//26为每个菜单项的高度，用来计算二级菜单的总高度。
+	allhight=obj.getElementsByTagName("li").length*100;//26为每个菜单项的高度，用来计算二级菜单的总高度。
    obj.style.height="1px";   
    var changeW=function(){ 	 		
 	  var obj_h=parseInt(obj.style.height);

@@ -1,0 +1,119 @@
+s@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0 0;
+	margin:0 0;
+}
+body{	
+	background:#f8f8f8;
+	margin:0;
+	}
+.carDriveList{
+	width:100%;
+	margin:0;
+}
+
+.carList{
+	width:100%;
+	height:100px;
+	background:#ececec;
+	list-style:none;
+	margin:0;
+	padding-left:0;
+	border:solid #ccc 1px;
+}
+.car{
+	width:100%;
+	height:100px;
+	border-top:#f8f8f8 solid 1px;
+	border-bottom:#FFF solid 1px;
+}
+
+.carImg{
+	width:40%;
+	height:80px;
+	border:#f8f8f8 solid 1px;
+	padding:2px;
+	margin-top:7px;
+	float:left;
+	margin-left:20px;
+}
+.carPic{
+	width:100%;
+	height:100%;
+}
+
+.describe{
+	height:80px;
+	width:50%;
+	float:left;
+}
+.carModel p{
+	line-height:14px;
+	font-family:"微软雅黑";
+	color:#000;
+	font-size:14px;
+	margin:0;
+	margin-top:10px;
+}
+.price{
+	font-family:"微软雅黑";
+	padding:0;
+	width:100%;
+	line-heigt:16px;
+	width:100%;
+	height:25px;
+	margin:0;
+	margin-top:4px;
+}
+.fakePrice{
+	width:80px;
+	height:25px;
+	font-size:12px;
+	float:left;
+	margin:0;
+	margin-top:2px;
+	margin-left:12%;
+	padding:0;
+	width:50px;
+}
+.realPrice{
+	width:80px;
+	height:25px;
+	font-size:16px;
+	float:left;
+	color:#900;
+    margin:0;
+	padding:0;
+}
+
+#goSignup {
+	text-decoration:none;
+	color:#FFF;
+	font-family:"微软雅黑";
+	font-size:18px;
+	background:#157eff;
+	display:block;
+	width:80%;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0 auto;
+}
+.footer{
+	width:100%;
+	height:25px;
+	background:#000;
+	opacity:0.4;
+	font-family:"微软雅黑";
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	line-height:10px;
+	padding-top:10px;
+}
+
+.footer p {
+	margin-top:0;
+	margin-bottom:0;
+}
