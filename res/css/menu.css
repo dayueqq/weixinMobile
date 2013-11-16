@@ -66,7 +66,7 @@ ul ,li{
 	display:none;
 }
 .menu li ul.level2 li{
-	height:100px;
+	height:130px;
 	text-align:center;
 }
 .menu li ul.level2 li a{
